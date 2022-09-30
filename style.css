@@ -1,0 +1,97 @@
+/*CONFIGURACAO COMUM------------------------------------*/
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #ddd;
+}
+
+header > a {
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    background-color: #ddd;
+    margin: 5px 0 5px  0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #f1f1f1;
+    background-color: #1B74E4;
+}
+
+footer > a{
+    padding: 0 20px 0 20px;
+}
+
+footer > a > img{
+    width: 30px;
+    height: 30px;
+}
+
+/*ESPECIFICAS---------------------------------------------*/
+#menuLateral{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    min-width: 100px;
+    background-color: #1B74E4
+}
+
+#conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CLASSES COMUNS------------------------------------------*/
+
+.d-flex{
+    display: flex;
+}
+
+.m-link{
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+
+.m-link:hover{
+    color: black;
+}
+
+.h-link{
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.h-link:hover{
+    color: white;
+}
+
+.btn-sucesso{
+    background-color: lightgreen;
+    color: white;
+}
+
+.btn-cancela{
+    background-color: rgb(255, 145, 145);
+    color: white;
+}
